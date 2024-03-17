@@ -2,7 +2,9 @@
 	width: 100vw;
 }
 .mask1 {
-	background: url('../../assets/img/SagradaFamilia.webp')
+	background: -webkit-image-set(
+			url('../../assets/img/SagradaFamilia.webp')
+		)
 		no-repeat;
 	background-size: cover;
 	background-position: center;
