@@ -1,0 +1,17 @@
+@mixin button($background-color, $colorTitle) {
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	background-color: map-get($colores, color-boton);
+	color: $colorTitle;
+	font-size: 16px;
+	border-radius: 5px;
+
+	&:hover {
+		background-image: linear-gradient(
+			to right,
+			map-get($colores, colorCuerpo),
+			map-get($colores, colortextoFooter)
+		);
+	}
+}

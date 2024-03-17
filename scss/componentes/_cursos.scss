@@ -1,0 +1,12 @@
+form.formulario {
+	border-top: $padding-top;
+	justify-content: center;
+	text-align: center;
+}
+u.subra {
+	color: map-get($colores, color-barra);
+	text-decoration: dashed;
+}
+.embed-responsive-item {
+	width: 95%;
+}

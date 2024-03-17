@@ -1,0 +1,238 @@
+@import 'https://fonts.googleapis.com/css2?family=Courgette&family=Rubik+Dirt&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Sacramento&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Courgette&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap';
+header h1 {
+  font-family: "Rubik Dirt";
+  text-align: center;
+  margin-top: 1%;
+}
+header h1 h1.titulopg {
+  padding: 1%;
+}
+header a.logo img {
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+
+nav .nav-link {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  color: rgb(18, 39, 71);
+}
+nav .nav-link:hover {
+  color: #d7cbb4;
+}
+
+nav.navbar.menuMd {
+  background-color: rgba(215, 203, 180, 0.3);
+  width: 100%;
+  font-style: normal;
+  font-weight: 600;
+}
+
+footer > ul.nav.justify-content-center {
+  background-color: #122747;
+  height: 2%;
+}
+footer h3 {
+  font-family: "Sacramento, cursive";
+  font-style: italic;
+  color: #d7cbb4;
+}
+footer a.nav-link.icono {
+  font-size: 1.2rem;
+  color: #d7cbb4;
+}
+
+main {
+  background-image: url(/assets/img/Fondo.webp);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+main div h2,
+main h3.best-seller {
+  padding: 2%;
+  font-family: "Sacramento, cursive";
+  font-style: italic;
+  font-size: 3rem;
+}
+main div h2:hover,
+main h3.best-seller:hover {
+  color: rgb(133, 186, 189);
+}
+main div.col,
+main .formulario,
+main h4.aprende {
+  border: 2px solid rgb(133, 186, 189);
+  margin: 1%;
+  padding-bottom: 1%;
+  color: white;
+  font-weight: 500;
+  padding: 5px;
+  background: rgba(18, 39, 71, 0.41);
+  box-shadow: 0 20px 50px rgb(5, 65, 77);
+  border: 2px solid rgb(133, 186, 189);
+  border-radius: 4px;
+  transition: background-color 0.8s ease;
+}
+main div.col:hover,
+main .formulario:hover,
+main h4.aprende:hover {
+  background-color: rgba(18, 39, 71, 0.8);
+}
+main p {
+  padding-top: calc(1% + 5px);
+}
+main .imagen-card {
+  margin-top: 5%;
+  width: 100%;
+  border-radius: 1%;
+  -webkit-border-radius: 1%;
+  -moz-border-radius: 1%;
+  -ms-border-radius: 1%;
+  -o-border-radius: 1%;
+}
+main a button.btn,
+main input {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(5, 65, 77);
+  color: #ebe2e2;
+  font-size: 16px;
+  border-radius: 5px;
+}
+main a button.btn:hover,
+main input:hover {
+  background-image: linear-gradient(to right, rgb(133, 186, 189), #d7cbb4);
+}
+
+p.text-center.texto-galeria,
+h5.text-center.texto-galeria {
+  color: #fafaf9;
+}
+p.text-center.texto-galeria:hover,
+h5.text-center.texto-galeria:hover {
+  color: rgb(5, 65, 77);
+}
+
+@media (max-width: 723px) {
+  #carouselExampleCaptions {
+    display: none;
+  }
+  .fotos .col {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+}
+@media (min-width: 722px) {
+  .texto-limitado {
+    display: none;
+  }
+}
+main {
+  padding: 1%;
+}
+main iframe {
+  height: 66vh;
+}
+main p.destinos {
+  font-family: "Sacramento, cursive";
+  font-weight: 500;
+  color: #d7cbb4;
+  font-size: 1.5rem;
+  padding: 1%;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+main h3.subtitle-destinos {
+  padding-top: 2%;
+  font-family: "Merriweather Sans";
+  font-weight: 500;
+  font-style: italic;
+  font-size: 2rem;
+}
+main section.container-destinos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-auto-flow: dense;
+  gap: 1rem;
+}
+main div.destinos1 {
+  padding: 5px;
+  background: rgba(18, 39, 71, 0.651);
+  box-shadow: 0 20px 50px rgb(5, 65, 77);
+  border: 2px solid rgb(133, 186, 189);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: background-color 0.8s ease;
+}
+main div.destinos1:hover {
+  background-color: rgba(18, 39, 71, 0.8);
+}
+
+#carouselExampleCaptions {
+  width: 100vw;
+}
+
+.mask1 {
+  background: url(/assets/img/SagradaFamilia.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.mask2 {
+  background: url(/assets/img/tour2.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.mask3 {
+  background: url(/assets/img/hotel2.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.text-consejos {
+  padding-top: 1%;
+  color: #dfe4e3;
+  font-size: 2rem;
+  left: 0;
+  width: 100%;
+  text-align: left;
+  background-color: rgba(153, 153, 153, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+form.formulario {
+  border-top: 1%;
+  justify-content: center;
+  text-align: center;
+}
+
+u.subra {
+  color: #d7cbb4;
+  text-decoration: dashed;
+}
+
+.embed-responsive-item {
+  width: 95%;
+}
+
+/*# sourceMappingURL=style.css.map */

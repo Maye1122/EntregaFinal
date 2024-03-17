@@ -1,0 +1,60 @@
+main {
+	background-image: url(/assets/img/Fondo.webp);
+	background-size: cover;
+	background-blend-mode: overlay;
+
+	div h2,
+	h3.best-seller {
+		padding: 2%;
+		font-family: map-get(
+			map-get($fuentes, sacramento-script),
+			family
+		);
+		font-style: nth($font-style, 2);
+		font-size: 3rem;
+		&:hover {
+			color: map-get($colores, colorCuerpo);
+		}
+	}
+
+	div.col,
+	.formulario,
+	h4.aprende {
+		border: 2px solid map-get($colores, colorCuerpo);
+		margin: 1%;
+		padding-bottom: 1%;
+		color: white;
+		font-family: map-get(
+			map-get($fuentes, poppins-cuerpo),
+			family
+		);
+		font-weight: nth($weights, 3);
+		padding: 5px;
+		background: rgba(18, 39, 71, 0.41);
+		box-shadow: 0 20px 50px rgb(5, 65, 77);
+		border: 2px solid rgb(133, 186, 189);
+		border-radius: 4px;
+		transition: background-color 0.8s ease;
+
+		&:hover {
+			background-color: rgba(18, 39, 71, 0.8);
+		}
+	}
+	p {
+		padding-top: calc(#{$padding-top} + 5px);
+	}
+	.imagen-card {
+		margin-top: 5%;
+		width: 100%;
+		border-radius: 1%;
+		-webkit-border-radius: 1%;
+		-moz-border-radius: 1%;
+		-ms-border-radius: 1%;
+		-o-border-radius: 1%;
+	}
+
+	a button.btn,
+	input {
+		@include button(rgba(217, 224, 233, 0.3), #ebe2e2);
+	}
+}
