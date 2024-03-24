@@ -95,6 +95,9 @@ main {
   background-size: cover;
   background-blend-mode: overlay;
 }
+main::before {
+  opacity: 0.5;
+}
 main div h2,
 main h3.best-seller {
   padding: 2%;

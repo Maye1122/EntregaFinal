@@ -2,6 +2,9 @@ main {
 	background-image: url('../assets/img/Fondo.webp');
 	background-size: cover;
 	background-blend-mode: overlay;
+	&::before {
+		opacity: 0.5;
+	}
 
 	div h2,
 	h3.best-seller {
