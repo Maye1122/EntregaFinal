@@ -50,25 +50,23 @@ footer a.nav-link.icono {
   width: 100vw;
 }
 
-.mask1 {
-  background: -webkit-image-set(url("../assets/img/SagradaFamilia.webp")) no-repeat;
+.carousel-inner .mask1 {
+  background: url("../assets/img/SagradaFamilia.webp") no-repeat;
   background-size: cover;
   background-position: center;
   width: 100vw;
   max-width: 100%;
   height: 100vh;
 }
-
-.mask2 {
-  background: url("../assets/img/tour2.webp") no-repeat;
+.carousel-inner .mask2 {
+  background: url("../assets/img/Viajemos.webp") no-repeat;
   background-size: cover;
   background-position: center;
   width: 100vw;
   max-width: 100%;
   height: 100vh;
 }
-
-.mask3 {
+.carousel-inner .mask3 {
   background: url("../assets/img/hotel2.webp") no-repeat;
   background-size: cover;
   background-position: center;
@@ -83,7 +81,7 @@ footer a.nav-link.icono {
   font-size: 2rem;
   left: 0;
   width: 100%;
-  text-align: left;
+  text-align: center;
   background-color: rgba(153, 153, 153, 0.5);
   padding: 10px;
   border-radius: 10px;
@@ -92,11 +90,9 @@ footer a.nav-link.icono {
 
 main {
   background-image: url("../assets/img/Fondo.webp");
+  background-color: rgba(255, 255, 255, 0.96);
   background-size: cover;
   background-blend-mode: overlay;
-}
-main::before {
-  opacity: 0.5;
 }
 main div h2,
 main h3.best-seller {

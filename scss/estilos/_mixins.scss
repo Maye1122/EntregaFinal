@@ -1,3 +1,13 @@
+// -------------Carrusel imagenes---------
+@mixin fondo-mascara() {
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	max-width: 100%;
+	height: 100vh;
+}
+
+// --------------Boton----------
 @mixin button($background-color, $colorTitle) {
 	padding: 10px 20px;
 	border: none;
