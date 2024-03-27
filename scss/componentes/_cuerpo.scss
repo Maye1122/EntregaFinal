@@ -1,8 +1,6 @@
 main {
-	background-image: url('../assets/img/Fondo.webp');
+	// background-image: url('../assets/img/Fondo.webp');
 	background-color: rgba(255, 255, 255, 0.96);
-	background-size: cover;
-	background-blend-mode: overlay;
 
 	div h2,
 	h3.best-seller {
@@ -13,6 +11,7 @@ main {
 		);
 		font-style: nth($font-style, 2);
 		font-size: 3rem;
+
 		&:hover {
 			color: map-get($colores, colorCuerpo);
 		}
@@ -45,8 +44,8 @@ main {
 		padding-top: calc(#{$padding-top} + 5px);
 	}
 	.imagen-card {
-		margin-top: 5%;
-		width: 100%;
+		margin: 5% 0;
+		width: 90%;
 		border-radius: 1%;
 		-webkit-border-radius: 1%;
 		-moz-border-radius: 1%;
@@ -57,5 +56,12 @@ main {
 	a button.btn,
 	input {
 		@include button(rgba(217, 224, 233, 0.3), #ebe2e2);
+		// margin-bottom: 3%;
+		// width: 80%;
+	}
+
+	section.row a {
+		text-decoration: none;
+		color: map-get($colores, colorTitle);
 	}
 }

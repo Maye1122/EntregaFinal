@@ -1,4 +1,5 @@
 header {
+	// margin-top: 1%;
 	h1 {
 		font-family: map-get(
 			map-get($fuentes, rubik-title),
@@ -9,10 +10,14 @@ header {
 		h1.titulopg {
 			padding: $padding-top;
 		}
+		&:hover {
+			color: map-get($colores, colortextoFooter);
+		}
 	}
 	a.logo img {
+		text-align: center;
 		float: left;
-		width: 10%;
+		width: 8%;
 		height: 100%;
 	}
 }

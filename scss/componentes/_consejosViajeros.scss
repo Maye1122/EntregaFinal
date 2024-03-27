@@ -19,15 +19,21 @@
 	}
 }
 
-.text-consejos {
-	padding-top: $padding-top;
+p.text-consejos {
+	transform: translateY(50vh);
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+	// border: 2px solid map-get($colores, color-barra);
+	border-radius: 10px;
+	// margin: 1% 1% 0 0;
+	margin: 0 1% 0 1%;
 	color: map-get($colores, color-letra-btn);
 	font-size: 2rem;
-	left: 0;
-	width: 100%;
+	// left: 0;
+	// width: 100vw;
 	text-align: center;
 	background-color: rgba(153, 153, 153, 0.5);
-	padding: 10px;
-	border-radius: 10px;
+
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

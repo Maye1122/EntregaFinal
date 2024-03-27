@@ -10,9 +10,13 @@ header h1 {
 header h1 h1.titulopg {
   padding: 1%;
 }
+header h1:hover {
+  color: #d7cbb4;
+}
 header a.logo img {
+  text-align: center;
   float: left;
-  width: 10%;
+  width: 8%;
   height: 100%;
 }
 
@@ -75,24 +79,19 @@ footer a.nav-link.icono {
   height: 100vh;
 }
 
-.text-consejos {
-  padding-top: 1%;
+p.text-consejos {
+  transform: translateY(50vh);
+  border-radius: 10px;
+  margin: 0 1% 0 1%;
   color: #dfe4e3;
   font-size: 2rem;
-  left: 0;
-  width: 100%;
   text-align: center;
   background-color: rgba(153, 153, 153, 0.5);
-  padding: 10px;
-  border-radius: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 main {
-  background-image: url("../assets/img/Fondo.webp");
   background-color: rgba(255, 255, 255, 0.96);
-  background-size: cover;
-  background-blend-mode: overlay;
 }
 main div h2,
 main h3.best-seller {
@@ -129,8 +128,8 @@ main p {
   padding-top: calc(1% + 5px);
 }
 main .imagen-card {
-  margin-top: 5%;
-  width: 100%;
+  margin: 5% 0;
+  width: 90%;
   border-radius: 1%;
   -webkit-border-radius: 1%;
   -moz-border-radius: 1%;
@@ -139,17 +138,22 @@ main .imagen-card {
 }
 main a button.btn,
 main input {
-  padding: 10px 20px;
   border: none;
   cursor: pointer;
   background-color: rgb(5, 65, 77);
   color: #ebe2e2;
   font-size: 16px;
   border-radius: 5px;
+  margin-bottom: 3%;
+  width: 80%;
 }
 main a button.btn:hover,
 main input:hover {
   background-image: linear-gradient(to right, rgb(133, 186, 189), #d7cbb4);
+}
+main section.row a {
+  text-decoration: none;
+  color: #fafaf9;
 }
 
 p.text-center.texto-galeria,
@@ -168,6 +172,9 @@ h5.text-center.texto-galeria:hover {
   .fotos .col {
     width: 100%;
     margin-bottom: 2%;
+  }
+  div.texto-limitado.container-fluid {
+    background-color: rgb(5, 65, 77);
   }
 }
 @media (min-width: 722px) {

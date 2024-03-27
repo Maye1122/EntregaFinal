@@ -8,6 +8,9 @@
 		width: 100%;
 		margin-bottom: 2%;
 	}
+	div.texto-limitado.container-fluid {
+		background-color: map-get($colores, color-boton);
+	}
 }
 @media (min-width: 722px) {
 	//Galeria de fotos
@@ -15,5 +18,5 @@
 		display: none;
 	}
 }
-@media (max-width: 576px) {
-}
+// @media (max-width: 576px) {
+// }
