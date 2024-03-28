@@ -78,8 +78,7 @@ footer a.nav-link.icono {
   max-width: 100%;
   height: 100vh;
 }
-
-p.text-consejos {
+.carousel-inner p.text-consejos {
   transform: translateY(50vh);
   border-radius: 10px;
   margin: 0 1% 0 1%;
@@ -113,10 +112,14 @@ main h4.aprende {
   color: white;
   font-weight: 500;
   padding: 5px;
-  background: rgba(18, 39, 71, 0.41);
+  background: rgba(18, 39, 71, 0.651);
   box-shadow: 0 20px 50px rgb(5, 65, 77);
   border: 2px solid rgb(133, 186, 189);
   border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
   transition: background-color 0.8s ease;
 }
 main div.col:hover,
@@ -227,18 +230,29 @@ main div.destinos1:hover {
 }
 
 form.formulario {
+  display: flex;
+  justify-content: space-between;
   border-top: 1%;
   justify-content: center;
   text-align: center;
 }
+form.formulario .formulario-content {
+  flex: 1;
+  margin-right: 30px;
+}
+form.formulario .text-center {
+  text-align: center;
+}
+form.formulario .text-center input {
+  width: 100%;
+}
 
 u.subra {
   color: #d7cbb4;
-  text-decoration: dashed;
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
 }
 
 .embed-responsive-item {
   width: 95%;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

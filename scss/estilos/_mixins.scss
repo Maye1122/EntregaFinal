@@ -20,10 +20,21 @@
 	width: 80%;
 
 	&:hover {
-		background-image: linear-gradient(
-			to right,
-			map-get($colores, colorCuerpo),
-			map-get($colores, colortextoFooter)
-		);
+		background-image: linear-gradient(to right,
+				map-get($colores, colorCuerpo),
+				map-get($colores, colortextoFooter));
 	}
+}
+
+@mixin sombras {
+	padding: 5px;
+	background: rgba(18, 39, 71, 0.651);
+	box-shadow: 0 20px 50px rgb(5, 65, 77);
+	border: 2px solid rgb(133, 186, 189);
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	transition: background-color 0.8s ease;
 }

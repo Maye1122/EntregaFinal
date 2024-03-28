@@ -1,17 +1,18 @@
 footer {
+
 	// Color barra
-	> ul.nav.justify-content-center {
+	>ul.nav.justify-content-center {
 		background-color: map-get($colores, color-footer);
 		height: 2%;
 	}
+
 	h3 {
-		font-family: map-get(
-			map-get($fuentes, sacramento-script),
-			family
-		);
+		font-family: map-get(map-get($fuentes, sacramento-script),
+				family);
 		font-style: nth($font-style, 2);
 		color: map-get($colores, colortextoFooter);
 	}
+
 	a.nav-link.icono {
 		font-size: 1.2rem;
 		color: map-get($colores, colortextoFooter);

@@ -1,12 +1,29 @@
 form.formulario {
+	display: flex;
+	justify-content: space-between;
 	border-top: $padding-top;
 	justify-content: center;
 	text-align: center;
+
+	.formulario-content {
+		flex: 1;
+		margin-right: 30px;
+	}
+
+	.text-center {
+		text-align: center;
+
+		input {
+			width: 100%;
+		}
+	}
 }
+
 u.subra {
 	color: map-get($colores, color-barra);
 	text-decoration: dashed;
 }
+
 .embed-responsive-item {
 	width: 95%;
 }

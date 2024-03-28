@@ -1,9 +1,7 @@
 nav {
 	.nav-link {
-		font-family: map-get(
-			map-get($fuentes, poppins-cuerpo),
-			family
-		);
+		font-family: map-get(map-get($fuentes, poppins-cuerpo),
+				family);
 
 		font-size: 1.2rem;
 		margin: 0.5rem;
@@ -12,9 +10,11 @@ nav {
 		&:hover {
 			color: map-get($colores, colortextoFooter);
 		}
+
 		//Styles
 	}
 }
+
 nav.navbar.menuMd {
 	background-color: $back-color;
 	width: 100%;

@@ -1,14 +1,11 @@
 main {
-	// background-image: url('../assets/img/Fondo.webp');
 	background-color: rgba(255, 255, 255, 0.96);
 
 	div h2,
 	h3.best-seller {
 		padding: 2%;
-		font-family: map-get(
-			map-get($fuentes, sacramento-script),
-			family
-		);
+		font-family: map-get(map-get($fuentes, sacramento-script),
+				family);
 		font-style: nth($font-style, 2);
 		font-size: 3rem;
 
@@ -24,25 +21,21 @@ main {
 		margin: 1%;
 		padding-bottom: 1%;
 		color: white;
-		font-family: map-get(
-			map-get($fuentes, poppins-cuerpo),
-			family
-		);
+		font-family: map-get(map-get($fuentes, poppins-cuerpo),
+				family);
 		font-weight: nth($weights, 3);
-		padding: 5px;
-		background: rgba(18, 39, 71, 0.41);
-		box-shadow: 0 20px 50px rgb(5, 65, 77);
-		border: 2px solid rgb(133, 186, 189);
-		border-radius: 4px;
-		transition: background-color 0.8s ease;
+		@include sombras;
+
 
 		&:hover {
 			background-color: rgba(18, 39, 71, 0.8);
 		}
 	}
+
 	p {
 		padding-top: calc(#{$padding-top} + 5px);
 	}
+
 	.imagen-card {
 		margin: 5% 0;
 		width: 90%;
@@ -56,8 +49,6 @@ main {
 	a button.btn,
 	input {
 		@include button(rgba(217, 224, 233, 0.3), #ebe2e2);
-		// margin-bottom: 3%;
-		// width: 80%;
 	}
 
 	section.row a {

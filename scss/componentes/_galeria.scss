@@ -1,6 +1,7 @@
 p.text-center.texto-galeria,
 h5.text-center.texto-galeria {
 	color: map-get($colores, colorTitle);
+
 	&:hover {
 		color: map-get($colores, color-boton);
 	}
